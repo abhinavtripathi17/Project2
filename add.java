@@ -10,6 +10,7 @@ class add{
         if(c=='+')System.out.println(add(a,b,c));
         else if(c=='-')System.out.println(sub(a,b,c));
         else if(c=='*')System.out.println(multi(a,b,c));
+        else System.out.println(divide(a,b,c));
 
     }
 
@@ -23,4 +24,7 @@ class add{
     public static int multi(int a, int b, int c){
         return a*b;
     }
+     public static int divide(int a, int b, int c){
+        return a/b;
+    } 
 }
